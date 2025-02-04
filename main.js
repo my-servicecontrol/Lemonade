@@ -490,7 +490,7 @@ function editOrder(dadata) {
       <div>${dadata[26].v}</div></div>
   </div>
   <table class="table table-bordered"><tbody id="table-body"></tbody></table>
-  <div><p style="text-align: right;">%<strong> &nbsp; &nbsp; &nbsp; ${dadata[30].v}: &nbsp; &nbsp; &nbsp; ${dadata[29].v} грн.&nbsp; &nbsp;</strong></p></div>`;
+  <div><p style="text-align: right;">%<strong> &nbsp; &nbsp; &nbsp; ${dadata[30].v}: &nbsp; &nbsp; &nbsp; ${dadata[29].v}&nbsp; &nbsp;</strong></p></div>`;
   });
 
   const data = dadata[36].v == undefined ? "заказ пуст" : dadata[36].v;
