@@ -1,5 +1,5 @@
 var myApp =
-  "https://script.google.com/macros/s/AKfycbyTM8gtmac83_Xm1z-MbbRdneC-WaNDp41g-XkCNq1FpGQy8TcyvBK3wCNW8TC-o8bq/exec";
+  "https://script.google.com/macros/s/AKfycbxO8VL1MFwPqYcz7H3H1VorJYJ7bEwThJ-RUOQctalWde-lO5J1wb-O9hIJCzsHk52p/exec";
 var tasks = "1oBRqIxKSX7ry35lTLNeo9dBffXT7-VyaRSASag7_ffc";
 var sName = "Lemonade Detailing";
 //var eDate = "Активно до: 18.08.2024";
@@ -534,7 +534,7 @@ function editOrder(dadata) {
   });
 
   const data = dadata[36].v == undefined ? "немає замовлення" : dadata[36].v;
-  const rows = data.split(",");
+  const rows = data.split("--");
   const tableBody = document.getElementById("table-body");
 
   rows.forEach((row, index) => {
