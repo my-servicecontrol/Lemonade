@@ -147,171 +147,21 @@
         </p>
       </div>
     </div>
-    <!-- Кнопки -->
-    <div class="container-sm mb-3">
-      <div class="row d-flex justify-content-end">
-        <div class="col">
-          <button
-            type="button"
-            class="btn btn-primary float-end"
-            onclick="newOrder()"
-          >
-            Новий візит
-          </button>
-        </div>
-        <div class="col col-md-auto">
-          <button
-            type="button"
-            class="btn btn-secondary float-end"
-            onclick="addReportModal()"
-          >
-            Звіти
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- вкладки -->
-    <div class="container-sm">
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <div class="alert-area ms-3 me-3"></div>
-        <button
-          class="nav-link active"
-          id="nav-home-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#tasksTableDiv"
-          type="button"
-          role="tab"
-          aria-controls="nav-home"
-          aria-selected="true"
-        >
-          В роботі
-        </button>
-        <button
-          class="nav-link link-success"
-          id="nav-done-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#tasksTableDiv"
-          type="button"
-          role="tab"
-          aria-controls="doneTable"
-          aria-selected="false"
-        >
-          Закриті
-        </button>
-        <button
-          class="nav-link link-secondary"
-          id="nav-delete-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#tasksTableDiv"
-          type="button"
-          role="tab"
-          aria-controls="deleteTable"
-          aria-selected="false"
-        >
-          Скасовані
-        </button>
-        <button
-          class="nav-link link-danger"
-          id="calTable-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#calTable"
-          type="button"
-          role="tab"
-          aria-controls="calTable"
-          aria-selected="false"
-        >
-          Запис
-        </button>
-      </div>
-      <!-- контент вкладок -->
-      <div class="tab-content" id="nav-tabContent">
-        <div
-          class="tab-pane fade show active table-responsive"
-          id="tasksTableDiv"
-          role="tabpanel"
-          aria-labelledby="nav-home-tab"
-          tabindex="0"
-        >
-          <!-- контент Вработе закрытые удаленные -->
-        </div>
-        <div
-          class="tab-pane fade"
-          id="calTable"
-          role="tabpanel"
-          aria-labelledby="calTable-tab"
-          tabindex="0"
-        >
-          <iframe
-            src="https://calendar.google.com/calendar/embed?height=500&wkst=2&ctz=Europe%2FMadrid&showTitle=0&showPrint=0&showCalendars=0&showTz=0&hl=ru&src=Y19iYzcxNmVmODc3NTdiMDVmYTVkMWVmYjM5NTk0ODk2N2Q0YWM3ZWE5ODQ1ZDYxZWI0YzA3ZDkyMjY2NzE1MzI2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23616161"
-            style="border-width: 0"
-            width="100%"
-            height="500"
-            frameborder="0"
-            scrolling="no"
-          ></iframe>
-          <!-- контентЗапись -->
-        </div>
-      </div>
-    </div>
-    <!-- модальное окно visit -->
-    <div
-      class="modal fade"
-      id="commonModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div
-        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-        role="document"
-      >
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title"></h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Закрыть"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body"></div>
-          <div class="alert-area ms-3 me-3"></div>
-          <div class="modal-footer"></div>
-        </div>
-      </div>
-    </div>
-    <!-- модальное окно report -->
-    <div
-      class="modal fade"
-      id="commonReport"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title"></h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body"></div>
-          <div class="alert-area ms-3 me-3"></div>
-          <div class="modal-footer"></div>
-        </div>
-      </div>
-    </div>
+
+<div style="background-color: #f0f8ff; border: 1px solid #cce; padding: 20px; border-radius: 8px; font-family: sans-serif; max-width: 600px; margin: 20px auto;">
+  <h3 style="margin-top: 0;">Глибокошановні колеги!</h3>
+  <p><strong>Нова версія <em>Service Control</em> вже доступна!</strong></p>
+  <p>Інтерфейс без Google-таблиць, сучасна система авторизації та безпечний обмін даними з клієнтами і всередині сервісу.</p>
+  <p style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 10px;">
+    <strong>📌 Збережіть нове посилання:</strong><br>
+    <a href="https://my-servicecontrol.net" target="_blank" style="color: #0d6efd; text-decoration: underline;">https://my-servicecontrol.net</a><br>
+    Саме в ньому працюватимуть усі нові функції.
+  </p>
+  <p>Дякуємо, що розвиваєте нову сервісну культуру разом з нами!</p>
+</div>
+
+
+    
     <!-- footer -->
     <footer class="footer py-2 bg-body-secondary fixed-bottom">
       <div class="container text-center">
@@ -350,3 +200,4 @@
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
+
